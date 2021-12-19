@@ -47,7 +47,118 @@ console.log("hello world");
 // false + true 
 // false - true
 
-console.log(false - true);
+// console.log(false - true);
+
+
+// difference beteen null vs undefined
+
+var iAmuseless = null ;
+console.log(iAmuseless);
+console.log(typeof(iAmuseless));
+
+var iAmStandBy ;
+console.log(iAmStandBy);
+console.log(typeof(iAmStandBy));
+
+
+
+
+// interview question 2
+// what is nan
+
+
+//    nan is a property of global Object.
+// in other words ,it is a variable in global scope
+// the initial value of nan is not-A-number
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
