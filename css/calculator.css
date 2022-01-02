@@ -1,28 +1,33 @@
-.container{
+.container {
     text-align: center;
     margin-top: 23px;
 
 
 }
-table{
+
+table {
     margin: auto;
 }
-input{
+
+input {
     font-size: 30px;
     border: 5px solid #197fa7;
     border-radius: 21px;
 }
-button{
+
+button {
     border-radius: 20px;
-   font-size: 39px;
+    font-size: 39px;
     background: cyan;
     width: 79px;
     height: 53px;
 }
-.scare{
-   
+
+.scare {
+
     background-color: #11e2f7;
     display: inline-block;
     border-radius: 4pc;
     height: 343px;
-    padding: 17px;}
+    padding: 17px;
+}

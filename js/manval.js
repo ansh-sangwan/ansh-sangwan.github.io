@@ -118,10 +118,10 @@ console.log("hello world");
 //  var nan
 
 
-var num1 =5;
-var num2= 6;
-console.log(typeof(num1));
-console.log(typeof(num2));
+var num1 = 5;
+var num2 = 6;
+console.log(typeof (num1));
+console.log(typeof (num2));
 
 console.log(num1 != num2);
 
