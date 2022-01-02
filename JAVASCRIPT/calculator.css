@@ -20,6 +20,9 @@ button{
     height: 53px;
 }
 .scare{
-    box-shadow: black;
+   
+    background-color: #11e2f7;
     display: inline-block;
-}
+    border-radius: 4pc;
+    height: 343px;
+    padding: 17px;}
