@@ -1,40 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-button{
-    cursor: pointer;
-}
-#unick{
-    text-align: center;
-font-size: 49px;
-font-style: italic;
-color: aqua;
-}
-body{
-    background-color: #2f2f63;
-}
+        button {
+            cursor: pointer;
+            font-size: 35px;
+            color: aqua;
+            background-color: darkblue;
+            border-radius: 20px;
+        }
 
+        #unick {
+            text-align: center;
+            font-size: 49px;
+            font-style: italic;
+            color: aqua;
+        }
 
+        body {
+            background-color: #2f2f63;
+        }
+       #contant{
+           text-align: center;
+       }
+       
     </style>
 </head>
+
 <body>
     <h1 id="unick">change the content of the h1</h1>
+    <div id="contant">
+        <button onclick="changeContent()">click Me</button>
+    </div>
+    <script>
 
-<button onclick="changeContent()">click Me</button>
-<script>
+        const changeContent = () => {
+            document.getElementById('unick').innerHTML = "my name is ansh"
 
-const changeContent = ( ) => {
-    document.getElementById('unick').innerHTML = "my name is ansh"
-    
-}
+        }
 
-
-</script>
+    </script>
 
 
 
@@ -42,4 +52,5 @@ const changeContent = ( ) => {
 
 
 </body>
+
 </html>
