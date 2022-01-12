@@ -31,11 +31,13 @@ h3{
 .btn{
     font-family: 'The Nautigal', cursive;
     color: white;
-    background-color: yellow;
-    border-color: yellow;
+    background-color: #00aeff ;
+    border-color: #00aeff;
     border-radius: 5px;
     margin-top: 19px;
     height: 32px;
     width: 109px;
     cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
 }
