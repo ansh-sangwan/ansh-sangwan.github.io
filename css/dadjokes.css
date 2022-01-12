@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+.container{
+    border: 2px solid aliceblue;
+    display: inline-block;
+    text-align: center;
+    margin-left: 494px;
+    align-items: center;
+    margin-top: 195px;
+    width: 632px;
+    height: 266px;
+    font-family: 'The Nautigal', cursive;    
+    background-color: aliceblue;
+    box-shadow: 1px 1px black;
+    border-radius: 20px;
+}
+h3{
+    font-size: 11px;
+    margin-top: 34px;
+}
+#joke{
+    font-family: 'The Nautigal', cursive;
+    font-size: 27px;
+    margin-top: 26px;
+}
+.btn{
+    font-family: 'The Nautigal', cursive;
+    color: white;
+    background-color: yellow;
+    border-color: yellow;
+    border-radius: 5px;
+    margin-top: 19px;
+    height: 32px;
+    width: 109px;
+    cursor: pointer;
+}
