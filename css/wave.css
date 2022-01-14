@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=The+Nautigal:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Josefin Sans', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272727;
+}
+a{
+    text-decoration: none;
+    padding: 15px 30px;
+    color: #00aeff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    border: 2px solid #00aeff;
+    overflow: hidden;
+}
+.wave{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: calc(100% + 22px);
+    left: 0;
+    background-color: #00aeff;
+    transition: all 1s;
+    z-index: -1;
+}
+.wave::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 22px;
+    background-image: url(/images/wave.ass.png);
+    top: -22px;
+    animation: wavy 0.5s linear infinite;
+}
+
+@keyframes wavy {
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 122px;
+    }
+}
+a :hover .wave{
+    top: 0;
+}
+a :hover{
+    color: #fff;
+}
