@@ -73,7 +73,7 @@ console.log("hello world");
 // "ansh" - "sangwan"
 // true + true
 // true + false
-// false + true 
+// false + true
 // false - true
 
 // console.log(false == true);

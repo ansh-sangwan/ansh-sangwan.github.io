@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-<div class="" id="container"></div>
+    <div class="" id="container"></div>
 
-<script>
-    const container = document.querySelector('#container');
-const request = new XMLHttpRequest();
-request.open('GET', "https://restcountries.com/v3.1/name/nepal");
-request.send();
+    <script>
+        const container = document.querySelector('#container');
+        const request = new XMLHttpRequest();
+        request.open('GET', "https://restcountries.com/v3.1/name/nepal");
+        request.send();
 
 
-request.addEventListener('load', function(){
-// console.log(  this.responseText);
-const[data] = JSON.parse(this.responseText);
-debugger;
-const htmlData = `<div id="card">
+        request.addEventListener('load', function () {
+            // console.log(  this.responseText);
+            const [data] = JSON.parse(this.responseText);
+            debugger;
+            const htmlData = `<div id="card">
 <article id="card">
         <div class="card-body">
             <img src="${data.flag}" alt="" class="card-body-img"/>
@@ -45,14 +47,15 @@ const htmlData = `<div id="card">
         </div>
     </article>
 </div>`;
-container.insertAdjacentHTML("afterbegin",htmlData)
+            container.insertAdjacentHTML("afterbegin", htmlData)
 
 
-})
+        })
 
 
 
 
-</script>
+    </script>
 </body>
+
 </html>

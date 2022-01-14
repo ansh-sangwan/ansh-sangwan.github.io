@@ -1,49 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-    <style>
-.asdw{
-    text-align: center;
-height: 102px;
-}
-.asde{
-    text-align: center;
-font-size: 31px;
-font-style: italic;
-}
-.button_su{
-    font-size: 36px;
-width: 160px;
-height: 84px;
-color: white;
-background-color: yellow;
-border-radius: 20px;
+<style>
+    .asdw {
+        text-align: center;
+        height: 102px;
+    }
 
-}
-body{
-    background-color: rgb(65, 81, 110);
-}
+    .asde {
+        text-align: center;
+        font-size: 31px;
+        font-style: italic;
+    }
 
+    .button_su {
+        font-size: 36px;
+        width: 160px;
+        height: 84px;
+        color: white;
+        background-color: yellow;
+        border-radius: 20px;
 
+    }
 
+    body {
+        background-color: rgb(65, 81, 110);
+    }
+</style>
 
-
-    </style>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <div class="asdw">
-        <button class="button_su" onclick="goback()" >Go back</button>
+        <button class="button_su" onclick="goback()">Go back</button>
     </div>
-        <p class="asde">Notice that clicking on the back buttion here will redirect you to previous url in the history list.</p>
+    <p class="asde">Notice that clicking on the back buttion here will redirect you to previous url in the history list.
+    </p>
 
     <script>
-     function goback(){
-         window.history.back();
-     }
+        function goback() {
+            window.history.back();
+        }
     </script>
 </body>
+
 </html>

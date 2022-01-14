@@ -15,7 +15,7 @@ const generateJokes = () => {
 
     fetch('https://icanhazdadjoke.com', setHeader)
         .then((res) => res.json())
-        .then((data)=>{
+        .then((data) => {
             jokes.innerHTML = data.joke;
         }).catch((error) => {
             console.log(error);

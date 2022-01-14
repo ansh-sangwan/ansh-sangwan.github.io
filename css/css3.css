@@ -97,14 +97,17 @@ section a {
     background: #fff;
     color: #000;
 }
-.btnone :hover{
+
+.btnone :hover {
     background: #00b894;
     color: #fff;
 }
-.btntwo :hover{
+
+.btntwo :hover {
     background: #fff;
     color: #000;
 }
+
 .btntwo {
     background: #00b894;
     color: #fff;

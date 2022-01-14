@@ -1,11 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: whitesmoke;
 }
-.container{
+
+.container {
     border: 2px solid aliceblue;
     display: inline-block;
     text-align: center;
@@ -14,24 +16,27 @@ body{
     margin-top: 196px;
     width: 632px;
     height: 266px;
-    font-family: 'The Nautigal', cursive;    
+    font-family: 'The Nautigal', cursive;
     background-color: aliceblue;
     box-shadow: 1px 1px black;
     border-radius: 20px;
 }
-h3{
+
+h3 {
     font-size: 11px;
     margin-top: 34px;
 }
-#joke{
+
+#joke {
     font-family: 'The Nautigal', cursive;
     font-size: 27px;
     margin-top: 26px;
 }
-.btn{
+
+.btn {
     font-family: 'The Nautigal', cursive;
     color: white;
-    background-color: #00aeff ;
+    background-color: #00aeff;
     border-color: #00aeff;
     border-radius: 5px;
     margin-top: 19px;
