@@ -60,10 +60,30 @@ input {
     cursor: pointer;
 }
 
-#submit :hover {
+#submit:hover {
     background-color: #0984e3;
 }
 
 #showScore {
-    background-color: #74b9ff;
+    background-color: #dfe6e9;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+.asd{
+font-size: 3rem;
+text-align: center;
+}
+ .btn{
+    margin-top: 2rem;
+    background-color: #55efc4;
+    color: #2d3436;
+    text-align: center;
+}
+#showScore .btn:hover {
+    background-color: #00b894;
+    color: #fff;
+}
+.scoreArea{
+    display: none;
 }
