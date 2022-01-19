@@ -1,10 +1,30 @@
 const music = document.querySelector('audio');
 const play = document.getElementById("play");
 const img = document.querySelector("img");
-const artist = document.getElementById("play");
-const title= document.getElementById("play");
-const prev= document.getElementById("play");
-const next = document.getElementById("play");
+const artist = document.getElementById("artist");
+const title= document.getElementById("title");
+const prev= document.getElementById("prev");
+const next = document.getElementById("next");
+
+const songs = [
+    {
+    name: "ansh-1",
+    title: "JIGRA",
+    artist: 'Varinder Brar',  
+}, 
+{
+    name: "ansh-2",
+    title: "Baapu Tharo KHOTO SIKKO",
+    artist: ' Kapil Jangir',  
+}, 
+{
+    name: "ansh-3",
+    title: "Kaafla ",
+    artist: 'Varinder Brar',  
+}, 
+]
+
+
 let isplaying = false;
 // for play function
 const playMusic = () =>{
@@ -28,6 +48,24 @@ play.addEventListener('click',() =>{
     //     playMusic();
     // }
     isplaying ?  pauseMusic() :  playMusic();
-
-
 });
+const loadsong = (songs) =>{
+    title.textContent = songs.title;
+    artist.textContent = songs.artist;
+    music.src = "music/"+songs.name+".mp3";
+    img.src = "images/" + songs.name +".jpg";
+}
+songsIndex =0;
+// loadsong(songs [1]); 
+const nextsong = () => {
+ songsIndex = (songsIndex + 1) % songs.length
+    loadsong(songs [songsIndex]);
+    playMusic();
+}
+const prevsong = () => {
+    songsIndex = (songsIndex + 1) % songs.length
+       loadsong(songs [songsIndex]);
+       playMusic();
+    }
+next.addEventListener("click", nextsong);
+prev.addEventListener("click", prevsong);
