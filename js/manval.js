@@ -31,7 +31,7 @@ console.log("hello world");
 //  console.log(myage);
 //  console.log(typeof(myage));
 //  var iAmanshs =false;
-// console.log(iAmanshs);
+// // console.log(iAmanshs);
 // console.log(typeof(iAmanshs));
 
 // datatype practice
