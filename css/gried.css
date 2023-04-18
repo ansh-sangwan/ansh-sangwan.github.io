@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px ;
+    grid-gap: 17px;
+    height: 100%;
+    width: 100%;
+    border: 2px solid gray;
+}

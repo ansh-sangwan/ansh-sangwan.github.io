@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.css {
+  background-color: black;
+  background-attachment: fixed;
+  color: white;
+  size: a4;
+  width: 100%;
+  height: 75px;
+}
+
+.hi {
+  background-color: yellow;
+  margin: 1px;
+  padding: 2px;
+  border: 20px solid red;
+  text-align: center;
+}
+.place {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin: 28px 219px;
+}
+p {
+  line-height: 106px;
+  text-align: center;
+}
+.hight {
+  background-color: black;
+  color: whitesmoke;
+  text-transform: uppercase;
+  line-height: 106px;
+  height: 106px;
+  width: 625px;
+  display: inline;
+  /* display: inline; */
+  padding: 18px;
+  margin: 582px;
+}
+
+#ticket {
+  display: inline-block;
+  height: 29px;
+  width: 185px;
+  text-align: center;
+  margin: 15px;
+  padding: 2px;
+}
