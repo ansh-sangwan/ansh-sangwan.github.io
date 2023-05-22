@@ -11,4 +11,9 @@ main{
     height: 100%;
     width: 100%;
     border: 2px solid gray;
+    overflow: hidden;
+}
+
+img{
+    box-shadow: 10px 10px 5px #ccc;
 }
