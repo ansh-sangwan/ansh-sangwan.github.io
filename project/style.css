@@ -1,0 +1,14 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #jocks {
+    width: 100%;
+    height: 1.5em;
+    background-color: silver;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 5px  black;
+  }
